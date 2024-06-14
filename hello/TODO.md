@@ -11,6 +11,6 @@ The steps are roughly:
 * Add a simple `hello.c` in this directory
 * Add a linker script (hello.lds) similar to, say, [earth.lds](https://github.com/yhzhang0128/egos-2000/blob/main/earth/earth.lds) in egos-2000
 * With the linker script, add a Makefile to compile `hello.c` into a binary (bin instead of elf, see how the [egos-2000 Makefile creates `earth.bin`](https://github.com/yhzhang0128/egos-2000/blob/main/Makefile#L64))
-* Add a similar `boot.json` here; load and run the hello-world binary on the Arty board
+* Add a similar `boot.json` here; load and run the hello-world binary on the Arty board by modifying `step2.sh`
 
 After this step, we can port egos-2000 to vexriscv bit-by-bit.
