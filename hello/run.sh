@@ -1,0 +1,1 @@
+./../litex_setup/litex/litex/tools/litex_term.py --safe --images=boot.json /dev/tty.usbserial-210319B583BE1
