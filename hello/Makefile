@@ -13,5 +13,8 @@ elf:
 bin: elf
 	$(RISCV_OBJCOPY) -O binary ./linker/hello.elf hello.bin
 
+run: bin
+	./run.sh
+
 clean:
 	rm -r ./linker/*.elf ./linker/*.lst *.bin
