@@ -1,4 +1,5 @@
-litex.local
+litex*
+buildroot*
 run_docker.sh
 linux-on-litex-vexriscv
 .vscode
